@@ -1,0 +1,16 @@
+body {
+    background-color: #f9f9f9;
+}
+
+h1 {
+    color: #2ecc71;
+}
+
+#productInfo {
+    margin-top: 20px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}

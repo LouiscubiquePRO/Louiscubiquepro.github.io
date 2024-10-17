@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FoodScanner</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="container text-center">
+        <h1 class="mt-5">FoodScanner</h1>
+        <p class="lead">Scannez les codes-barres pour obtenir des informations sur les produits alimentaires !</p>
+        <button id="scanButton" class="btn btn-success btn-lg mt-4">Scanner un code-barres</button>
+        <div id="productInfo" class="mt-4" style="display: none;">
+            <h2>Informations sur le produit :</h2>
+            <p id="productName" class="font-weight-bold">Nom du produit : </p>
+            <img id="productImage" src="" alt="Image du produit" class="img-fluid" style="display: none;">
+            <p id="productDescription">Description : </p>
+        </div>
+    </div>
+
+    <script src="cordova.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
